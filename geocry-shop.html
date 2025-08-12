@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Geocry Shop - Crystals & Jewelry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f3f7; }
+    header { background:#4a2e6e; color:#fff; padding:20px 0; text-align:center; }
+    nav a { color:#fff; text-decoration:none; margin:0 15px; font-weight:bold; }
+    .hero { background:#6f4ca7; color:#fff; padding:40px; text-align:center; }
+    .products { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; padding:40px 10px; }
+    .product-card { background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08); width:270px; padding:20px; text-align:center; }
+    .product-card img { width:100%; height:180px; object-fit:cover; border-radius:6px; }
+    .product-card h3 { margin:10px 0 5px; }
+    .product-card p { color:#555; margin-bottom:10px; }
+    .product-card .price { color:#4a2e6e; font-weight:bold; font-size:1.2em; margin-bottom:10px; }
+    .product-card button { background:#4a2e6e; color:#fff; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; }
+    .about, .contact { background:#fff; border-radius:8px; max-width:800px; margin:40px auto; padding:30px; box-shadow:0 2px 8px rgba(0,0,0,0.07);}
+    footer { background:#4a2e6e; color:#fff; text-align:center; padding:20px 0; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Geocry Shop</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Geocry Shop</h2>
+    <p>Discover the beauty of crystals, minerals, and unique jewelry. Elevate your energy and style!</p>
+  </section>
+
+  <section id="products" class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Amethyst Cluster">
+      <h3>Amethyst Cluster</h3>
+      <p>Natural amethyst cluster for meditation and décor.</p>
+      <div class="price">$25.00</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Rose Quartz Pendant">
+      <h3>Rose Quartz Pendant</h3>
+      <p>Handcrafted pendant with genuine rose quartz.</p>
+      <div class="price">$18.00</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80" alt="Citrine Point">
+      <h3>Citrine Point</h3>
+      <p>Golden citrine crystal point for positivity and abundance.</p>
+      <div class="price">$22.00</div>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80" alt="Geode Ring">
+      <h3>Geode Ring</h3>
+      <p>Unique ring featuring a miniature geode slice.</p>
+      <div class="price">$30.00</div>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Geocry Shop</h2>
+    <p>
+      Geocry Shop is passionate about connecting you to Earth’s treasures. We source ethically and offer handcrafted jewelry and raw crystals for healing, décor, and personal style. 
+      Each piece is chosen for its unique beauty and energy.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Geocry Shop. All rights reserved.
+  </footer>
+</body>
+</html>
